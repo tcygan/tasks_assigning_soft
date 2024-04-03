@@ -1,0 +1,13 @@
+//TVSAM JOB 93423,'IBMUSER',NOTIFY=&SYSUID         
+//STEP1 EXEC PGM=IDCAMS                            
+//SYSPRINT DD SYSOUT=*                             
+//SYSIN DD *                                       
+   DEFINE CLUSTER(              -                  
+   NAME(IBMUSER.T2.USERS)       -                  
+   INDEXED                      -                  
+   VOLUME(JASYS1)               -                  
+   TRACKS(5 5)                  -                  
+   RECSZ(40 40)                 -                  
+   KEYS(20 0))                                     
+/*                                                 
+//                                                 
