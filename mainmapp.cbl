@@ -1,6 +1,6 @@
        IDENTIFICATION DIVISION.                                         
        PROGRAM-ID. MAINMAPP.                                            
-      * THIS IS TRANSACTION PROGRAM THAT ALLOWS USERS    TO             
+      * THIS IS TRANSACTION PROGRAM THAT ALLOWS ADMIN USERS    TO             
       * ASSIGN TASKS FOR PARTICULAR USER                                
       * AND ALSO THANKS TO USSHOWP USER CAN SEE ALL USER BY PAGING LOGIC
       * IN CASE HE DON'T WANT TO REMEBER THEM ALL                       
